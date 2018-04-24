@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "CORS proxy",
   "dependencies": {
-    "request": "^2.69.0",
-    "serverless": "^1.24.1"
+    "request": "2.85.0",
+    "request-promise": "4.2.2",
+    "serverless": "1.26.1"
   },
   "devDependencies": {
-    "serverless-offline": "^3.9.0"
+    "serverless-domain-manager": "2.3.6",
+    "serverless-offline": "3.20.3"
   }
 }
