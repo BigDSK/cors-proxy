@@ -14,7 +14,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs10.x
   timeout: 120
   memorySize: 128
   stage: ${opt:stage, 'dev'}

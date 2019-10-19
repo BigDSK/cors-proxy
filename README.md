@@ -27,5 +27,5 @@ DOMAIN_NAME=cors-proxy.goziohealth.com serverless deploy --stage prod
 #### Use
 Open your browser and use `endpoint` field from previous console response as base address. For example:
 ```
-https://cors-proxy.goziohealth.com/prod/?url=https://github.com/
+https://cors-proxy.goziohealth.com/?url=https%3A%2F%2Fgoogle.com
 ```
