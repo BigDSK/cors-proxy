@@ -2,13 +2,17 @@
   "name": "cors-proxy",
   "version": "1.0.0",
   "description": "CORS proxy",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
-    "request": "2.85.0",
-    "request-promise": "4.2.2",
-    "serverless": "1.26.1"
+    "request": "2.88.0",
+    "request-promise": "4.2.4",
+    "serverless": "1.54.0"
   },
   "devDependencies": {
-    "serverless-domain-manager": "2.3.6",
-    "serverless-offline": "3.20.3"
+    "serverless-domain-manager": "3.3.0",
+    "serverless-offline": "5.12.0"
   }
 }
