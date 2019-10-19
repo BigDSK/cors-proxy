@@ -35,6 +35,8 @@ module.exports.corsProxy = async (event, context, callback) => {
     'host': parsed.host,
   };
 
+  console.log(`Proxying request to ${url} with headers ${JSON.stringify(headers)}`);
+
   try {
     const response = await request({
       url,
